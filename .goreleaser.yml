@@ -1,19 +1,21 @@
-build:
-  binary: changelogger
-  main: main.go
-  ldflags:
-    - >
-      -s -w 
-      -X github.com/MarkusFreitag/changelogger/cmd.BuildVersion={{.Version}}
-      -X github.com/MarkusFreitag/changelogger/cmd.BuildDate={{.Date}}
-  goos:
-    - linux
-    - darwin
-  goarch:
-    - amd64
-    - arm64
-  env:
-    - CGO_ENABLED=0
+version: 2
+
+builds:
+  - binary: changelogger
+    main: main.go
+    ldflags:
+      - >
+        -s -w
+        -X github.com/MarkusFreitag/changelogger/cmd.BuildVersion={{.Version}}
+        -X github.com/MarkusFreitag/changelogger/cmd.BuildDate={{.Date}}
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
 
 archives:
   - name_template: "{{.Binary}}_{{.Os}}_{{.Arch}}"
@@ -22,7 +24,7 @@ release:
   draft: true
 
 snapshot:
-  name_template: "{{.Tag}}"
+  version_template: "{{.Tag}}"
 
 checksum:
   name_template: "changelogger_checksums.txt"
