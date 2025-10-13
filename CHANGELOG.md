@@ -1,8 +1,8 @@
-# For next release
+# Minor Release v0.7.0 (2025-10-13)
   * **Markus Freitag**
     * pkg/gitconfig: replace ini config parser with git shell exec
 
-*Not released yet*
+*Released by Markus Freitag <fmarkus@mailbox.org>*
 
 # Patch Release v0.6.1 (2023-11-23)
   * **Tom Siewert**
