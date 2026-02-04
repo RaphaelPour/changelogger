@@ -1,3 +1,10 @@
+# For next release
+  * **Raphael Pour**
+    * fork: update import paths
+    * update: drop major
+
+*Not released yet*
+
 # Minor Release v0.7.0 (2025-10-13)
   * **Markus Freitag**
     * pkg/gitconfig: replace ini config parser with git shell exec
