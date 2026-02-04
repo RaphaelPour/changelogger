@@ -1,9 +1,9 @@
-# For next release
+# Minor Release v0.8.0 (2026-02-04)
   * **Raphael Pour**
     * fork: update import paths
     * update: drop major
 
-*Not released yet*
+*Released by Raphael Pour <info@raphaelpour.de>*
 
 # Minor Release v0.7.0 (2025-10-13)
   * **Markus Freitag**
