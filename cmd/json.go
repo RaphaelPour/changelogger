@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/MarkusFreitag/changelogger/pkg/parser"
+	"github.com/RaphaelPour/changelogger/pkg/parser"
 	pj "github.com/hokaccha/go-prettyjson"
 	"github.com/spf13/cobra"
 )

@@ -28,8 +28,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/MarkusFreitag/changelogger/pkg/parser"
-	"github.com/MarkusFreitag/changelogger/pkg/stringutil"
+	"github.com/RaphaelPour/changelogger/pkg/parser"
+	"github.com/RaphaelPour/changelogger/pkg/stringutil"
 	"github.com/spf13/cobra"
 )
 

@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/MarkusFreitag/changelogger/pkg/gitconfig"
+	"github.com/RaphaelPour/changelogger/pkg/gitconfig"
 )
 
 func TestGetGitAuthor(t *testing.T) {

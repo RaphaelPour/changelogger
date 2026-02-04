@@ -1,4 +1,4 @@
-package stringutil // import "github.com/MarkusFreitag/changelogger/pkg/stringutil"
+package stringutil // import "github.com/RaphaelPour/changelogger/pkg/stringutil"
 
 import "strings"
 

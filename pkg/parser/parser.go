@@ -1,4 +1,4 @@
-package parser // import "github.com/MarkusFreitag/changelogger/pkg/parser"
+package parser // import "github.com/RaphaelPour/changelogger/pkg/parser"
 
 import (
 	"bufio"
@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MarkusFreitag/changelogger/pkg/stringutil"
+	"github.com/RaphaelPour/changelogger/pkg/stringutil"
 	"github.com/Masterminds/semver"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

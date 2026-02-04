@@ -30,7 +30,7 @@ import (
 	"gopkg.in/AlecAivazis/survey.v1"
 )
 
-const REPO = "MarkusFreitag/changelogger"
+const REPO = "RaphaelPour/changelogger"
 
 var (
 	force bool

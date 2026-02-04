@@ -1,4 +1,4 @@
-module github.com/MarkusFreitag/changelogger
+module github.com/RaphaelPour/changelogger
 
 require (
 	github.com/Masterminds/semver v1.5.0

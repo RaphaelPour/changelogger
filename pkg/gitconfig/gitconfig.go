@@ -1,4 +1,4 @@
-package gitconfig // import "github.com/MarkusFreitag/changelogger/pkg/gitconfig"
+package gitconfig // import "github.com/RaphaelPour/changelogger/pkg/gitconfig"
 
 import (
 	"bytes"
@@ -9,7 +9,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/MarkusFreitag/changelogger/pkg/parser"
+	"github.com/RaphaelPour/changelogger/pkg/parser"
 )
 
 func fetchConfigAttribute(key string) (string, error) {

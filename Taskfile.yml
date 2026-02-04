@@ -3,7 +3,7 @@ output: 'prefixed'
 
 vars:
   CGO_ENABLED: 0
-  PATH: 'github.com/MarkusFreitag/changelogger'
+  PATH: 'github.com/RaphaelPour/changelogger'
   BINARY_NAME: 'changelogger'
 
 tasks:
@@ -77,7 +77,7 @@ tasks:
   generate-install-script:
     desc: Generate install script using https://github.com/goreleaser/godownloader
     cmds:
-      - godownloader --repo MarkusFreitag/changelogger -o install-changelogger.sh
+      - godownloader --repo RaphaelPour/changelogger -o install-changelogger.sh
       - cp ./install-changelogger.sh ./docs/install.sh
   ci:
     desc: Run ci tasks

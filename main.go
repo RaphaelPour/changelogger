@@ -18,9 +18,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package main // import "github.com/MarkusFreitag/changelogger
+package main // import "github.com/RaphaelPour/changelogger
 
-import "github.com/MarkusFreitag/changelogger/cmd"
+import "github.com/RaphaelPour/changelogger/cmd"
 
 func main() {
 	cmd.Execute()

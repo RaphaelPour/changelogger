@@ -29,8 +29,8 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/MarkusFreitag/changelogger/pkg/gitconfig"
-	"github.com/MarkusFreitag/changelogger/pkg/parser"
+	"github.com/RaphaelPour/changelogger/pkg/gitconfig"
+	"github.com/RaphaelPour/changelogger/pkg/parser"
 	"github.com/Masterminds/semver"
 	"github.com/spf13/cobra"
 	"gopkg.in/AlecAivazis/survey.v1"

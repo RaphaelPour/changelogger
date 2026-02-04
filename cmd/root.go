@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package cmd // import "github.com/MarkusFreitag/changelogger/cmd"
+package cmd // import "github.com/RaphaelPour/changelogger/cmd"
 
 import (
 	"fmt"
@@ -26,10 +26,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MarkusFreitag/changelogger/pkg/editor"
-	"github.com/MarkusFreitag/changelogger/pkg/gitconfig"
-	"github.com/MarkusFreitag/changelogger/pkg/parser"
-	"github.com/MarkusFreitag/changelogger/pkg/stringutil"
+	"github.com/RaphaelPour/changelogger/pkg/editor"
+	"github.com/RaphaelPour/changelogger/pkg/gitconfig"
+	"github.com/RaphaelPour/changelogger/pkg/parser"
+	"github.com/RaphaelPour/changelogger/pkg/stringutil"
 	"github.com/Masterminds/semver"
 	"github.com/spf13/cobra"
 )
