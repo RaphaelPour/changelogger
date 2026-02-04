@@ -120,10 +120,10 @@ var releaseNewCmd = &cobra.Command{
 		var bump string
 		prompt := &survey.Select{
 			Message: "Select the level of version bump:",
-			Options: []string{"debian", "patch", "minor", "major"},
+			Options: []string{"debian", "patch", "minor"},
 		}
 		if versionFormat == "semver" {
-			prompt.Options = []string{"patch", "minor", "major"}
+			prompt.Options = []string{"patch", "minor"}
 		}
 		err = survey.AskOne(prompt, &bump, nil)
 		if err != nil {
@@ -152,14 +152,6 @@ var releaseNewCmd = &cobra.Command{
 			}
 		case "minor":
 			newVersion = lastVersion.IncMinor()
-			if versionFormat == "debian" {
-				newVersion, err = newVersion.SetPrerelease("1")
-				if err != nil {
-					return err
-				}
-			}
-		case "major":
-			newVersion = lastVersion.IncMajor()
 			if versionFormat == "debian" {
 				newVersion, err = newVersion.SetPrerelease("1")
 				if err != nil {
