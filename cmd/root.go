@@ -26,11 +26,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Masterminds/semver"
 	"github.com/RaphaelPour/changelogger/pkg/editor"
 	"github.com/RaphaelPour/changelogger/pkg/gitconfig"
 	"github.com/RaphaelPour/changelogger/pkg/parser"
 	"github.com/RaphaelPour/changelogger/pkg/stringutil"
-	"github.com/Masterminds/semver"
 	"github.com/spf13/cobra"
 )
 

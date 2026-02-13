@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RaphaelPour/changelogger/pkg/stringutil"
 	"github.com/Masterminds/semver"
+	"github.com/RaphaelPour/changelogger/pkg/stringutil"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )
